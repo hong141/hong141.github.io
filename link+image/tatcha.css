@@ -1,0 +1,9 @@
+img#logo {float:left}
+
+h1 {font-family: serif; font-size: 28px; text-align: center}
+
+div.product {float: left; width: 25%; text-align:center}
+
+div.productsection:after {display: table}
+
+div.shoppingbag {border: 2px solid black}
