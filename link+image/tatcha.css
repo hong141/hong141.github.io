@@ -1,6 +1,12 @@
-div#intro {background-color: #5a5186;}
+div#intro {background-color: #5a5186; height: 28px; font-color: white;}
 
-img#logo {float:left}
+p#intro {color: white; font-family: Arial, Helvetica, sans-serif;}
+
+img#logo {float:left; height: 50px}
+
+div#campaign {position: relative}
+
+div#inside {position:absolute; float:right; text-align: center;}
 
 h1 {font-family: serif; font-size: 25px; text-decoration-color: #222629; text-align: center}
 
