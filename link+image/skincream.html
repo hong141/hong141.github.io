@@ -8,55 +8,92 @@
 
     <style>
         img#logo {
-            float: left;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
             height: 30px
         }
 
-        img#product {
+        div#back {
+            float: left;
+            border: 3px solid #ddd3dc
+        }
+
+        img.product {
             display: block;
             margin-left: auto;
-            margin-right: auto}
+            margin-right: auto;
+            height: 250px
+        }
 
         h2,
         h3,
         h4,
         p {
-            text-align: center
+            text-align: center;
+            font-family: sans-serif;
         }
-        div {float:left; border:20px; padding:40px; background-color:#ddd3dc}
+
+        div#main {
+            float: left;
+            border: 20px;
+            padding: 40px;
+            border: 30px solid #ddd3dc;
+            padding-left: 5%;
+            padding-right: 5%;
+            margin-left: 5%;
+            margin-right: 5%
+        }
     </style>
 </head>
 
 <body>
 
-    <img id="logo" src="/Tatcha/logo.png" alt="logo" title="Tatcha Logo"/>
-    <p><a href="tatcha.html">Back</a></p>
-    <img id="product" src="/Tatcha/skincream.jpg" width: 100%/>
-    <div>
-    <p><b>NEW</b></p>
-<h2>THE DEWY SKIN CREAM</h2>
-<p>$68<br/>
-    A rich cream that feeds skin with plumping hydration and antioxidant-packed Japanese purple rice for a dewy, healthy glow. Ideal for dry skin, but can be used on normal skin for those who prefer a richer texture.<br/>
-    SIZE:  50 ML | 1.7 FL. OZ.<br/>
+    <img id="logo" src="/Tatcha/logo.png" alt="logo" title="Tatcha Logo" />
+    <div id="Back"><a href="tatcha.html">Back</a></div>
+    <img class="product" src="/Tatcha/skincream.jpg" />
 
-<h3>Why It Works</h3>
-<p>This cream intensely hydrates and seals in moisture, helping to replenish ceramides for a healthy bounce and instant luminosity. A fermentation of Japanese anti-aging superfoods — green tea, rice, and algae — helps skin to look its most beautiful at any age.</p>
+    <div id="main">
+        <p><b>NEW</b></p>
+        <h2>THE DEWY SKIN CREAM</h2>
+        <p>$68<br />
+            A rich cream that feeds skin with plumping hydration and antioxidant-packed Japanese purple rice for a dewy,
+            healthy glow. Ideal for dry skin, but can be used on normal skin for those who prefer a richer
+            texture.<br />
+            SIZE: 50 ML | 1.7 FL. OZ.<br />
 
-<h3>INGREDIENTS</h3>
-<p style="text-align:center">Oil-free. Non-comedogenic. Non-irritating. Non-sensitizing. Dermatologist tested. Cruelty-free.<br/>
-<br/>
-Formulated without:<br/>
-    Mineral oil, synthetic fragrances, sulfate detergents, parabens, urea, DEA, TEA or phthalates.</p>
+        <img class="product" src="/Tatcha/skincream wiw.jpg" alt="The Dewy Skin Cream" />
+        <h3>Why It Works</h3>
+        <p>This cream intensely hydrates and seals in moisture, helping to replenish ceramides for a healthy bounce and
+            instant luminosity. A fermentation of Japanese anti-aging superfoods — green tea, rice, and algae — helps
+            skin to look its most beautiful at any age.</p>
 
-<h4>Japanese Purple Rice</h4>
-<p>Purple rice, an ancient precious rice first beloved in Japan, packed with nutrients and known for its ability to survive any harsh environment, has long been used to celebrate longevity and vitality. Rich in anthocyanin, a strong antioxidant, it helps skin recover from and protect against stress, pollution, and UV damage for healthier-looking skin.</p>
+        <h3>INGREDIENTS</h3>
+        <p style="text-align:center">Oil-free. Non-comedogenic. Non-irritating. Non-sensitizing. Dermatologist tested.
+            Cruelty-free.<br />
+            <br />
+            Formulated without:<br />
+            Mineral oil, synthetic fragrances, sulfate detergents, parabens, urea, DEA, TEA or phthalates.</p>
 
-<h4>Okinawa Algae Blend + Hyaluronic Acid</h4>
-<p>A special blend of Okinawa algae and hyaluronic acid captures water to help replenish skin’s natural moisture reservoir, immediately leaving skin soft, comforted, and deeply nourished. It also helps to replenish ceramides to ensure optimum skin barrier function, aiding in the reduction of future moisture loss, for skin that is visibly smooth and plump with hydration.</p>
+        <img class="product" src="/Tatcha/skincream i1.jpg" alt="Ingredient 1" />
+        <h4>Japanese Purple Rice</h4>
+        <p>Purple rice, an ancient precious rice first beloved in Japan, packed with nutrients and known for its ability
+            to survive any harsh environment, has long been used to celebrate longevity and vitality. Rich in
+            anthocyanin, a strong antioxidant, it helps skin recover from and protect against stress, pollution, and UV
+            damage for healthier-looking skin.</p>
 
-<h4>Botanical Extracts</h4>
-<p>A blend of extracts and oils from ginseng, wild thyme, and sweet marjoram nourishes skin, enhancing its natural ability to retain and release moisture as needed, and imparts a dewy glow.</p>
-</div>
+        <img class="product" src="/Tatcha/skincream i2.jpg" alt="Ingredient 2" />
+        <h4>Okinawa Algae Blend + Hyaluronic Acid</h4>
+        <p>A special blend of Okinawa algae and hyaluronic acid captures water to help replenish skin’s natural moisture
+            reservoir, immediately leaving skin soft, comforted, and deeply nourished. It also helps to replenish
+            ceramides to ensure optimum skin barrier function, aiding in the reduction of future moisture loss, for skin
+            that is visibly smooth and plump with hydration.</p>
+
+        <img class="product" src="/Tatcha/skincream i3.jpg" alt="Ingredient 3" />
+        <h4>Botanical Extracts</h4>
+        <p>A blend of extracts and oils from ginseng, wild thyme, and sweet marjoram nourishes skin, enhancing its
+            natural ability to retain and release moisture as needed, and imparts a dewy glow.</p>
+    </div>
 </body>
 
 </html>

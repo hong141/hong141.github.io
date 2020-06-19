@@ -8,61 +8,95 @@
 
     <style>
         img#logo {
-            float: left;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
             height: 30px
         }
 
-        img#product {
+        div#back {
+            float: left;
+            border: 3px solid #ddd3dc
+        }
+
+        img.product {
             display: block;
             margin-left: auto;
-            margin-right: auto}
+            margin-right: auto;
+            height: 250px
+        }
 
         h2,
         h3,
         h4,
         p {
-            text-align: center
+            text-align: center;
+            font-family: sans-serif;
         }
-        div {float:left; border:20px; padding:40px; background-color:#ddd3dc}
+
+        div#main {
+            float: left;
+            border: 20px;
+            padding: 40px;
+            border: 30px solid #ddd3dc;
+            padding-left: 5%;
+            padding-right: 5%;
+            margin-left: 5%;
+            margin-right: 5%
+        }
     </style>
 </head>
 
 <body>
+
+    <img id="logo" src="/Tatcha/logo.png" alt="logo" title="Tatcha Logo" />
+    <div id="Back"><a href="tatcha.html">Back</a></div>
+    <img id="product" src="/Tatcha/essence.jpg" />
     
-    <img id="logo" src="/Tatcha/logo.png" alt="logo" title="Tatcha Logo"/>
-    <p><a href="tatcha.html">Back</a></p>
-    <img id="product" src="/Tatcha/essence.jpg"/>
-    <div>
-    <p>BESTSELLER</p>
-<h2>THE ESSENCE</h2>
-<p>$95<br/>
-    A resurfacing softener of 98.7% pure anti-aging Japanese superfoods that makes all skincare work better.<br/>
-    SIZE:  150 ML | 5.1 FL. OZ.<br/>
+    <div id="main">
+        <p>BESTSELLER</p>
+        <h2>THE ESSENCE</h2>
+        <p>$95<br />
+            A resurfacing softener of 98.7% pure anti-aging Japanese superfoods that makes all skincare work
+            better.<br />
+            SIZE: 150 ML | 5.1 FL. OZ.<br />
 
-<h3>Why It Works</h3>
-<ul>A daily 7-second ritual to reveal your softest, most youthful skin, delivering:<br/>
+        <img class="product" src="/Tatcha/essence wiw.jpg" alt="The Essence" />
+        <h3>Why It Works</h3>
+        <ul>A daily 7-second ritual to reveal your softest, most youthful skin, delivering:<br />
 
-    <li>Anti-aging: Pure, 98.7% Hadasei-3™, a concentrate of nourishing Green Tea, Rice and Algae, Japan's three essential nutrients for skin health and youthful radiance.</li>
-    <li>Smoothing & Resurfacing: The natural fermentation of these nutrients produces lactic acid, helping to increase cell turnover for improved skin texture and a smooth luster.</li>
-    <li>Plumping Hydration: Instantly doubles skin's natural moisture content, above and beyond the results from a moisturizer, softening & plumping fine lines & wrinkles.</li>
-    <li>Maximizes Performance of All Skincare: Skin's channels are flush with lasting hydration, creating a pathway to deliver treatments that follow more deeply, amplifying their effectiveness.</li>
-</ul>
+            <li>Anti-aging: Pure, 98.7% Hadasei-3™, a concentrate of nourishing Green Tea, Rice and Algae, Japan's three
+                essential nutrients for skin health and youthful radiance.</li>
+            <li>Smoothing & Resurfacing: The natural fermentation of these nutrients produces lactic acid, helping to
+                increase cell turnover for improved skin texture and a smooth luster.</li>
+            <li>Plumping Hydration: Instantly doubles skin's natural moisture content, above and beyond the results from
+                a moisturizer, softening & plumping fine lines & wrinkles.</li>
+            <li>Maximizes Performance of All Skincare: Skin's channels are flush with lasting hydration, creating a
+                pathway to deliver treatments that follow more deeply, amplifying their effectiveness.</li>
+        </ul>
 
-<h3>INGREDIENTS</h3>
-<p style="text-align:center">Oil-free. Non-comedogenic. Non-irritating. Non-sensitizing. Dermatologist tested. Cruelty-free.<br/>
-<br/>
-Formulated without:<br/>
-    Mineral oil, synthetic fragrances, sulfate detergents, parabens, urea, DEA, TEA or phthalates.</p>
+        <h3>INGREDIENTS</h3>
+        <p style="text-align:center">Oil-free. Non-comedogenic. Non-irritating. Non-sensitizing. Dermatologist tested.
+            Cruelty-free.<br />
+            <br />
+            Formulated without:<br />
+            Mineral oil, synthetic fragrances, sulfate detergents, parabens, urea, DEA, TEA or phthalates.</p>
 
-<h4>Uji Green Tea</h4>
-<p>Prized throughout Japan as the purest, finest source of Green Tea, this powerful antioxidant-rich botanical from Kyoto is known to detoxify and help prevent signs of premature aging.</p>
+        <img class="product" src="/Tatcha/essence i1.png" alt="Ingredient 1" />
+        <h4>Uji Green Tea</h4>
+        <p>Prized throughout Japan as the purest, finest source of Green Tea, this powerful antioxidant-rich botanical
+            from Kyoto is known to detoxify and help prevent signs of premature aging.</p>
 
-<h4>Okinawa Mozuku Algae</h4>
-<p>This sea treasure from Japan’s tropical islands is rich in polysaccharides, essential for skin water retention and renewal.</p>
+        <img class="product" src="/Tatcha/essence i2.png" alt="Ingredient 2" />
+        <h4>Okinawa Mozuku Algae</h4>
+        <p>This sea treasure from Japan’s tropical islands is rich in polysaccharides, essential for skin water
+            retention and renewal.</p>
 
-<h4>Akita Rice</h4>
-<p>This rice is known as the finest rice in Japan for its superior taste and quality. It is also a nourishing moisturizer, rich in essential proteins.</p>
-</div>
+        <img class="product" src="/Tatcha/essence i3.png" alt="Ingredient 3" />
+        <h4>Akita Rice</h4>
+        <p>This rice is known as the finest rice in Japan for its superior taste and quality. It is also a nourishing
+            moisturizer, rich in essential proteins.</p>
+    </div>
 </body>
 
 </html>
