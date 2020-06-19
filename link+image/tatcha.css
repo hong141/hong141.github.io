@@ -1,14 +1,10 @@
-div#intro {background-color: #5a5186; height: 28px; font-color: white;}
+div#intro {background-color: #5a5186; height: 30px}
 
 p#intro {color: white; font-family: Arial, Helvetica, sans-serif;}
 
-img#logo {float:left; height: 50px}
+img#logo {float:left; height: 40px}
 
-div#campaign {position: relative}
-
-div#inside {position:absolute; float:right; text-align: center;}
-
-h1 {font-family: serif; font-size: 25px; text-decoration-color: #222629; text-align: center}
+h1 {font-family: sans-serif; font-size: 25px; text-decoration-color: #222629; text-align: center}
 
 div.product {float: left; width: 25%; text-align:center}
 
@@ -16,4 +12,4 @@ div.productsection {border:30px solid white}
 
 div.productsection:after {display: table}
 
-div.shoppingbag {border: 1px solid black; margin: 10px, padding: 5px}
+div.shoppingbag {border: 1px solid black; margin: 10px}
