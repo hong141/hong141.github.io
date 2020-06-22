@@ -17,6 +17,12 @@ div#menu {
     padding: 2px;
 }
 
+img#logo {
+    float: left;
+    height: 40px;
+    line-height: 65px;
+}
+
 #menu div {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -33,19 +39,14 @@ div#menu {
     width: 30px
 }
 
+#main-menu a {
+    color: #b2b2b2;
+}
+
 #menu a:hover,
 #menu a.active {
     color: #754ea0;
     text-decoration: none;
-}
-
-img#logo {
-    float: left;
-    height: 40px
-}
-
-#main-menu a {
-    color: #b2b2b2;
 }
 
 h1 {
