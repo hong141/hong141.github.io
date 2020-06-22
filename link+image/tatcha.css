@@ -116,3 +116,8 @@ div#detail {
 div#detail:after {
     display: table
 }
+
+#detail h2,
+a {
+    font-size: 13px, color: #010101
+}
