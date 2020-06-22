@@ -29,13 +29,14 @@ div#menu {
     float: right
 }
 
-#menu img {
+#menu img.icon {
     width: 30px
 }
 
 #menu a:hover,
 #menu a.active {
     color: #754ea0;
+    text-decoration: none;
 }
 
 img#logo {
