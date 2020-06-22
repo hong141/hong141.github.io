@@ -83,9 +83,9 @@ div.shoppingbag {
     line-height: 30px;
 }
 
-#info div {
+div#info {
     float: left;
-    width: 30%;
+    width: auto;
     text-align: center;
     margin: 10px
 }
@@ -101,4 +101,8 @@ div#info:after {
 #detail div {
     float: left;
     width: 15%
+}
+
+div#detail:after {
+    display: table
 }
