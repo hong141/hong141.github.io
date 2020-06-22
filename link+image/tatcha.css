@@ -16,8 +16,6 @@ div#menu {
     height: 65px;
     padding-left: 60px;
     padding-right: 60px;
-    margin-top: 12.5px;
-    margin-bottom: 12.5px;
 }
 
 img#logo {
@@ -60,7 +58,7 @@ p {
     font-family: sans-serif;
 }
 
-.product a {
+a {
     text-decoration: none;
 }
 
@@ -92,7 +90,7 @@ div.shoppingbag {
     float: left;
     width: 27%;
     text-align: center;
-    margin: 10px
+    padding: 5px;
 }
 
 #info img {
