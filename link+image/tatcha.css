@@ -16,6 +16,7 @@ div#menu {
     height: 65px;
     padding-left: 60px;
     padding-right: 60px;
+    padding-top: 12.5px;
 }
 
 img#logo {
@@ -26,6 +27,8 @@ img#logo {
 #menu div {
     margin-left: 30px;
     float: left;
+    height: 40px;
+    line-height: 40px;
 }
 
 #menu div:last-child {
@@ -60,6 +63,7 @@ p {
 
 a {
     text-decoration: none;
+    color: #010101
 }
 
 div.product {
@@ -88,7 +92,7 @@ div.shoppingbag {
 
 #info div {
     float: left;
-    width: 27%;
+    width: 30%;
     text-align: center;
     padding: 5px;
 }
