@@ -7,25 +7,66 @@
     <title>The Dewy Skin Cream | Tatcha</title>
 
     <style>
+        #intro {
+            background-color: #5a5186;
+            height: 35px;
+            padding-left: 50px;
+        }
+        
+        #intro p {
+            color: white;
+            font-size: 14px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            line-height: 35px;
+        }
+        
+        div#menu {
+            height: 65px;
+            padding-left: 60px;
+            padding-right: 60px;
+            padding-top: 12.5px;
+            padding-bottom: 12.5px;
+        }
+        
         img#logo {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            height: 30px
-        }
-
-        div#back {
             float: left;
-            border: 3px solid #ddd3dc
+            height: 30px;
         }
-
+        
+        #menu div {
+            margin-left: 30px;
+            float: left;
+            height: 40px;
+            line-height: 40px;
+        }
+        
+        #menu div:last-child {
+            float: right
+        }
+        
+        #menu img.icon {
+            width: 30px;
+        }
+        
+        #menu a {
+            color: #010101;
+            text-decoration: none;
+        }
+        
+        #menu a:hover,
+        #menu a.active {
+            color: #754ea0;
+            text-decoration: none;
+        }
+        
         img.product {
             display: block;
             margin-left: auto;
             margin-right: auto;
             height: 250px
         }
-
+        
         h2,
         h3,
         h4,
@@ -33,7 +74,7 @@
             text-align: center;
             font-family: sans-serif;
         }
-
+        
         div#main {
             float: left;
             border: 20px;
@@ -49,50 +90,55 @@
 
 <body>
 
-    <img id="logo" src="/Tatcha/logo.png" alt="logo" title="Tatcha Logo" />
-    <div id="Back"><a href="tatcha.html">Back</a></div>
+    <div id="intro">
+        <p>SUMMER EVENT 20% OFF SITEWIDE* | CODE: SUMMER</p>
+    </div>
+
+    <div id="menu">
+        <a href="tatcha.html"><img id="logo" src="/Tatcha/logo.png" title="Tatcha Logo" /></a>
+        <div><a href="shop.html">SHOP</a></div>
+        <div><a href="bestsellers.html">BESTSELLERS</a></div>
+        <div><a href="new.html">NEW</a></div>
+        <div><a href="exclusives.html">EXCLUSIVES</a></div>
+        <div><a href="story">OUR STORY</a></div>
+        <div><a href="try">TRY TATCHA</a></div>
+        <div>
+            <a href="search.html"><img class="icon" src="https://img.icons8.com/pastel-glyph/2x/search--v2.png" /></a>
+            <a href="shoppingbag.html"><img class="icon" src="https://www.kindpng.com/picc/m/81-813317_shopping-bag-icon-png-transparent-png.png" /></a>
+        </div>
+    </div>
+
     <img class="product" src="/Tatcha/skincream.jpg" />
 
     <div id="main">
         <p><b>NEW</b></p>
         <h2>THE DEWY SKIN CREAM</h2>
-        <p>$68<br />
-            A rich cream that feeds skin with plumping hydration and antioxidant-packed Japanese purple rice for a dewy,
-            healthy glow. Ideal for dry skin, but can be used on normal skin for those who prefer a richer
-            texture.<br />
-            SIZE: 50 ML | 1.7 FL. OZ.<br />
+        <p>$68<br /> A rich cream that feeds skin with plumping hydration and antioxidant-packed Japanese purple rice for a dewy, healthy glow. Ideal for dry skin, but can be used on normal skin for those who prefer a richer texture.
+            <br /> SIZE: 50 ML | 1.7 FL. OZ.<br />
 
-        <img class="product" src="/Tatcha/skincream wiw.jpg" alt="The Dewy Skin Cream" />
-        <h3>Why It Works</h3>
-        <p>This cream intensely hydrates and seals in moisture, helping to replenish ceramides for a healthy bounce and
-            instant luminosity. A fermentation of Japanese anti-aging superfoods — green tea, rice, and algae — helps
-            skin to look its most beautiful at any age.</p>
+            <img class="product" src="/Tatcha/skincream wiw.jpg" alt="The Dewy Skin Cream" />
+            <h3>Why It Works</h3>
+            <p>This cream intensely hydrates and seals in moisture, helping to replenish ceramides for a healthy bounce and instant luminosity. A fermentation of Japanese anti-aging superfoods — green tea, rice, and algae — helps skin to look its most beautiful
+                at any age.</p>
 
-        <h3>INGREDIENTS</h3>
-        <p style="text-align:center">Oil-free. Non-comedogenic. Non-irritating. Non-sensitizing. Dermatologist tested.
-            Cruelty-free.<br />
-            <br />
-            Formulated without:<br />
-            Mineral oil, synthetic fragrances, sulfate detergents, parabens, urea, DEA, TEA or phthalates.</p>
+            <h3>INGREDIENTS</h3>
+            <p style="text-align:center">Oil-free. Non-comedogenic. Non-irritating. Non-sensitizing. Dermatologist tested. Cruelty-free.
+                <br />
+                <br /> Formulated without:<br /> Mineral oil, synthetic fragrances, sulfate detergents, parabens, urea, DEA, TEA or phthalates.</p>
 
-        <img class="product" src="/Tatcha/skincream i1.jpg" alt="Ingredient 1" />
-        <h4>Japanese Purple Rice</h4>
-        <p>Purple rice, an ancient precious rice first beloved in Japan, packed with nutrients and known for its ability
-            to survive any harsh environment, has long been used to celebrate longevity and vitality. Rich in
-            anthocyanin, a strong antioxidant, it helps skin recover from and protect against stress, pollution, and UV
-            damage for healthier-looking skin.</p>
+            <img class="product" src="/Tatcha/skincream i1.jpg" alt="Ingredient 1" />
+            <h4>Japanese Purple Rice</h4>
+            <p>Purple rice, an ancient precious rice first beloved in Japan, packed with nutrients and known for its ability to survive any harsh environment, has long been used to celebrate longevity and vitality. Rich in anthocyanin, a strong antioxidant,
+                it helps skin recover from and protect against stress, pollution, and UV damage for healthier-looking skin.</p>
 
-        <img class="product" src="/Tatcha/skincream i2.jpg" alt="Ingredient 2" />
-        <h4>Okinawa Algae Blend + Hyaluronic Acid</h4>
-        <p>A special blend of Okinawa algae and hyaluronic acid captures water to help replenish skin’s natural moisture
-            reservoir, immediately leaving skin soft, comforted, and deeply nourished. It also helps to replenish
-            ceramides to ensure optimum skin barrier function, aiding in the reduction of future moisture loss, for skin
-            that is visibly smooth and plump with hydration.</p>
+            <img class="product" src="/Tatcha/skincream i2.jpg" alt="Ingredient 2" />
+            <h4>Okinawa Algae Blend + Hyaluronic Acid</h4>
+            <p>A special blend of Okinawa algae and hyaluronic acid captures water to help replenish skin’s natural moisture reservoir, immediately leaving skin soft, comforted, and deeply nourished. It also helps to replenish ceramides to ensure optimum
+                skin barrier function, aiding in the reduction of future moisture loss, for skin that is visibly smooth and plump with hydration.</p>
 
-        <img class="product" src="/Tatcha/skincream i3.jpg" alt="Ingredient 3" />
-        <h4>Botanical Extracts</h4>
-        <p>A blend of extracts and oils from ginseng, wild thyme, and sweet marjoram nourishes skin, enhancing its
-            natural ability to retain and release moisture as needed, and imparts a dewy glow.</p>
+            <img class="product" src="/Tatcha/skincream i3.jpg" alt="Ingredient 3" />
+            <h4>Botanical Extracts</h4>
+            <p>A blend of extracts and oils from ginseng, wild thyme, and sweet marjoram nourishes skin, enhancing its natural ability to retain and release moisture as needed, and imparts a dewy glow.</p>
     </div>
 </body>
 
