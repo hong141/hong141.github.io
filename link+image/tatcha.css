@@ -1,17 +1,59 @@
-div#intro {background-color: #5a5186; height: 30px}
+div#intro {
+    background-color: #5a5186;
+    height: 35px
+}
 
-p#intro {color: white; font-family: Arial, Helvetica, sans-serif;text-align: center; top: 10%; bottom: 10%}
+p#intro-text {
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+}
 
-img#logo {float:left; height: 40px}
+div#main-menu {
+    height: 65px;
+}
 
-h1 {font-family: sans-serif; font-size: 25px; text-decoration-color: #222629; text-align: center}
+img#logo {
+    float: left;
+    height: 40px
+}
 
-p {font-family: sans-serif;}
+#main-menu a {
+    color: #b2b2b2;
+}
 
-div.product {float: left; width: 25%; text-align:center}
+h1 {
+    font-family: sans-serif;
+    font-size: 25px;
+    text-decoration-color: #222629;
+    text-align: center
+}
 
-div.productsection {border:30px solid white; margin: 50px}
+p {
+    font-family: sans-serif;
+}
 
-div.productsection:after {display: table}
+div.product {
+    float: left;
+    width: 25%;
+    text-align: center
+}
 
-div.shoppingbag {border: 1px solid black; margin: 20px}
+div.productsection {
+    height: 480px;
+    border: 30px solid white;
+    margin: 50px
+}
+
+div.productsection:after {
+    display: table
+}
+
+div.shoppingbag {
+    height: 30px;
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 5px;
+    line-height: 30px;
+}
