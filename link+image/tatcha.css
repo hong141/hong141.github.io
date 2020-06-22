@@ -81,11 +81,12 @@ div.shoppingbag {
     border: 1px solid black;
     border-radius: 5px;
     line-height: 30px;
+    display: inline-block;
 }
 
 div#info {
     float: left;
-    width: auto;
+    width: 27%;
     text-align: center;
     margin: 10px
 }
