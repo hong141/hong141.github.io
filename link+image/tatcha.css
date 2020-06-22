@@ -53,7 +53,7 @@ h1 {
     font-family: sans-serif;
     font-size: 25px;
     color: #85888A;
-    text-align: center
+    text-align: center;
 }
 
 p {
@@ -68,7 +68,6 @@ div.product {
 
 div.productsection {
     height: 480px;
-    border: 30px solid white;
     margin: 50px
 }
 
