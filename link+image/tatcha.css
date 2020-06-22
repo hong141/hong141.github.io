@@ -82,3 +82,23 @@ div.shoppingbag {
     border-radius: 5px;
     line-height: 30px;
 }
+
+#info div {
+    float: left;
+    width: 30%;
+    text-align: center;
+    margin: 10px
+}
+
+#info img {
+    height: 300px
+}
+
+div#info:after {
+    display: table
+}
+
+#detail div {
+    float: left;
+    width: 15%
+}
