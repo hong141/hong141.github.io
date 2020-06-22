@@ -106,24 +106,22 @@ div#info:after {
     display: table
 }
 
-#detail div {
+div.detail {
     float: left;
     width: 15%
 }
 
-div#detail {
+#general-detail {
     background-color: #f7f9fa;
     padding: 20px
 }
 
-div#detail:after {
+#general-detail:after {
     display: table
 }
 
-h2,
-#detail a,
-p {
-    font-size: 13px, color: #010101
+h2 {
+    font-size: 13px, color: #010101;
 }
 
 a:hover {
