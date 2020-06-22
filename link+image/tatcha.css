@@ -12,8 +12,25 @@
     line-height: 35px;
 }
 
-div#main-menu {
+div#menu {
     height: 65px;
+    padding: 2px;
+}
+
+#menu div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+}
+
+#menu div:last-child {
+    float: right
+}
+
+#menu img {
+    width: 30px
 }
 
 #menu a:hover,
