@@ -36,7 +36,8 @@ img#logo {
 }
 
 #menu img.icon {
-    width: 30px
+    width: 30px;
+    vertical-align: middle;
 }
 
 #main-menu a {
