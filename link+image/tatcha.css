@@ -41,7 +41,7 @@ img#logo {
 }
 
 #menu a {
-    color: #b2b2b2;
+    color: #010101;
     text-decoration: none;
 }
 
@@ -95,7 +95,7 @@ div.shoppingbag {
     float: left;
     width: 30%;
     text-align: center;
-    padding: 15px;
+    padding: 30px;
 }
 
 #info img {
