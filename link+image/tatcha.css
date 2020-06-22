@@ -17,6 +17,7 @@ div#menu {
     padding-left: 60px;
     padding-right: 60px;
     padding-top: 12.5px;
+    padding-bottom: 12.5px;
 }
 
 img#logo {
@@ -94,7 +95,7 @@ div.shoppingbag {
     float: left;
     width: 30%;
     text-align: center;
-    padding: 5px;
+    padding: 15px;
 }
 
 #info img {
@@ -112,14 +113,20 @@ div#info:after {
 
 div#detail {
     background-color: #f7f9fa;
-    padding: 5px
+    padding: 20px
 }
 
 div#detail:after {
     display: table
 }
 
-#detail h2,
-a {
+h2,
+#detail a,
+p {
     font-size: 13px, color: #010101
+}
+
+a:hover {
+    color: #754ea0;
+    text-decoration: none;
 }
