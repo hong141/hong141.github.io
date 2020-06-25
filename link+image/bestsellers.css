@@ -71,13 +71,13 @@ div#list {
     text-align: center;
 }
 
+#list img {
+    height: 300px;
+}
+
 #list span {
     font-weight: 600;
     font-size: 14px;
-}
-
-img:hover {
-    border: 2px solid #754ea0
 }
 
 div.shoppingbag {
