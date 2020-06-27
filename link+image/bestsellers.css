@@ -97,6 +97,10 @@ div.product {
     float: none;
 }
 
+#list img:hover {
+    border: 1px solid #754ea0;
+}
+
 #list span {
     font-weight: 600;
     font-size: 14px;
@@ -112,6 +116,12 @@ div.shoppingbag {
     display: inline-block;
     font-size: .75rem;
     vertical-align: bottom;
+}
+
+.shoppingbag div:hover {
+    background-color: black;
+    color: white;
+    text-decoration: none;
 }
 
 div#chat {
@@ -135,7 +145,8 @@ div#chat {
 
 div.detail {
     float: left;
-    width: 15%
+    width: 15%;
+    text-align: left;
 }
 
 #general-detail {
@@ -151,4 +162,10 @@ h2 {
     font-size: .875rem;
     font-weight: 600;
     letter-spacing: 1px;
+}
+
+.detail a,
+p {
+    font-size: .75rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
