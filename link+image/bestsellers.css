@@ -135,8 +135,9 @@ div#chat {
 }
 
 #chat img {
-    height: 30px;
-    padding-left: 10px;
+    height: 25px;
+    padding-left: 15px;
+    vertical-align: center;
 }
 
 #chat span {
