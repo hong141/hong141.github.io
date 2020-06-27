@@ -87,7 +87,7 @@ div.product {
     float: left;
     padding-bottom: 25px;
     padding-top: 15px;
-    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .1);
+    box-shadow: 2px black;
 }
 
 #list img {
