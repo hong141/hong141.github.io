@@ -31,8 +31,7 @@ div#menu {
     box-sizing: border-box;
     padding-left: 60px;
     padding-right: 60px;
-    padding-top: 12.5px;
-    padding-bottom: 12.5px;
+    padding-top: 15px;
 }
 
 img#logo {
@@ -43,8 +42,8 @@ img#logo {
 #menu div {
     margin-left: 30px;
     float: left;
-    height: 40px;
-    line-height: 40px;
+    height: 30px;
+    line-height: 30px;
 }
 
 #menu div:last-child {
@@ -58,6 +57,7 @@ img#logo {
 #menu a {
     color: #010101;
     text-decoration: none;
+    font-size: 14px;
 }
 
 #menu a:hover,
@@ -66,18 +66,16 @@ img#logo {
     text-decoration: none;
 }
 
-#banner {
+#banner,
+#bestsellers {
     width: 100%;
-}
-
-#summer {
-    margin: 0 auto;
-    display: block;
-    float: none;
 }
 
 div#list {
     background-color: #f7f9fa;
+    padding-top: 15px;
+    padding-left,
+    padding-right: auto;
 }
 
 div.product {
@@ -90,7 +88,10 @@ div.product {
 }
 
 #list img {
-    height: 250px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    float: none;
 }
 
 #list span {
