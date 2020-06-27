@@ -50,8 +50,8 @@ img#logo {
     float: right
 }
 
-#menu img.icon {
-    width: 30px;
+.icon {
+    height: 30px;
 }
 
 #menu a {
@@ -74,8 +74,8 @@ img#logo {
 div#list {
     background-color: #f7f9fa;
     padding-top: 15px;
-    padding-left,
-    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 div.product {
