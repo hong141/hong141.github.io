@@ -5,6 +5,7 @@ body {
 a {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
+    color: black;
 }
 
 #intro {
@@ -65,8 +66,14 @@ img#logo {
     text-decoration: none;
 }
 
-img#menu {
+img#banner {
     width: 100%;
+}
+
+#summer {
+    margin: 0 auto;
+    display: block;
+    float: none;
 }
 
 div#list {
@@ -97,6 +104,7 @@ div.shoppingbag {
     border: 1px solid black;
     border-radius: 5px;
     line-height: 30px;
+    text-align: center;
     display: inline-block;
 }
 
@@ -106,6 +114,29 @@ div#chat {
     right: 15px;
     width: 110px;
     height: 45px;
-    border-radius: 20%;
+    border-radius: 30%;
     background-color: #685BC7;
+}
+
+#chat img {
+    height: 30px;
+}
+
+#chat span {
+    text-transform: uppercase;
+    color: white;
+}
+
+div.detail {
+    float: left;
+    width: 15%
+}
+
+#general-detail {
+    background-color: #f7f9fa;
+    padding: 20px
+}
+
+#general-detail:after {
+    display: table
 }
