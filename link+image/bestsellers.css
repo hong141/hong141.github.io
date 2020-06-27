@@ -80,7 +80,6 @@ div#list {
 div.product {
     display: inline-block;
     background-color: white;
-    height: 410px;
     width: 20%;
     margin: 15px;
     text-align: center;
@@ -100,7 +99,7 @@ div.product {
     display: block;
     margin: 0 auto;
     float: none;
-    border: 1px;
+    border: 1px solid white;
 }
 
 #list img:hover {
