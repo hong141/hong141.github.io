@@ -136,11 +136,13 @@ div#chat {
 
 #chat img {
     height: 30px;
+    padding-left: 10px;
 }
 
 #chat span {
     text-transform: uppercase;
     color: white;
+    line-height: 45px;
 }
 
 div.detail {
