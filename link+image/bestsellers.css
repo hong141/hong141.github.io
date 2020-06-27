@@ -159,7 +159,8 @@ div.detail {
 
 #general-detail {
     background-color: #f7f9fa;
-    padding: 20px
+    padding: 20px;
+    padding-left: 40px;
 }
 
 #general-detail:after {
