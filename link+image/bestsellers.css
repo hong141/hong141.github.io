@@ -90,11 +90,17 @@ div.product {
     box-shadow: 2px black;
 }
 
+.product>a:hover {
+    color: #754ea0;
+    text-decoration: none;
+}
+
 #list img {
     width: 250px;
     display: block;
     margin: 0 auto;
     float: none;
+    border: 1px;
 }
 
 #list img:hover {
@@ -118,7 +124,7 @@ div.shoppingbag {
     vertical-align: bottom;
 }
 
-.shoppingbag div:hover {
+div.shoppingbag:hover {
     background-color: black;
     color: white;
     text-decoration: none;
