@@ -1,6 +1,9 @@
 body {
     margin: 0;
-    margin-top: 0 !important
+}
+
+a {
+    text-decoration: none;
 }
 
 #intro {
@@ -8,6 +11,7 @@ body {
     height: 35px;
     width: 100%;
     padding-left: 50px;
+    margin-top: 0;
 }
 
 #intro p {
@@ -16,6 +20,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     line-height: 35px;
+    margin-top: 0;
 }
 
 div#menu {
@@ -63,7 +68,7 @@ div#list {
     background-color: #f7f9fa;
 }
 
-#list->div {
+div.product {
     display: inline-block;
     background-color: white;
     height: 500px;
@@ -73,7 +78,7 @@ div#list {
 }
 
 #list img {
-    height: 300px;
+    height: 250px;
 }
 
 #list span {
