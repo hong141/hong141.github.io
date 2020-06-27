@@ -142,7 +142,7 @@ div#chat {
 #chat img {
     height: 25px;
     padding-left: 15px;
-    vertical-align: center;
+    vertical-align: middle;
 }
 
 #chat span {
