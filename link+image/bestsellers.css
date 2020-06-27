@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    margin-top: 0 !important
 }
 
 #intro {
@@ -62,7 +63,7 @@ div#list {
     background-color: #f7f9fa;
 }
 
-#list div {
+#list->div {
     display: inline-block;
     background-color: white;
     height: 500px;
