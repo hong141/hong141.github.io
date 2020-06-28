@@ -59,9 +59,7 @@ body {
 #content {
     display: inline-block;
     width: 100%;
-    position: absolute;
-    top: 0;
-    left: 202px;
+    padding-left: 202px;
 }
 
 #banner {
