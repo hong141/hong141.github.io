@@ -16,9 +16,23 @@ body {
     width: 200px;
 }
 
+.main-nav {
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
 #container {
     background-image: url("../position/image/7b3d290fb0cce26152f4de200bfb6d61.jpg");
     display: block;
+}
+
+#container>div {
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
 }
 
 #content {
