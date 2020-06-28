@@ -21,16 +21,19 @@ body {
     height: 53px;
     text-align: center;
     line-height: 53px;
-    text-transform: uppercase;
     font-size: 17px;
     font-weight: bold;
     color: #f2b1bb;
     font-family: cursive;
 }
 
+.main-nav:hover {
+    color: black;
+}
+
 .icon {
     height: 53px;
-    display: inline-block;
+    display: block;
 }
 
 #container {
@@ -46,8 +49,11 @@ body {
     font-family: cursive;
     font-size: 17px;
     font-weight: 600;
-    text-transform: uppercase;
     color: white;
+}
+
+#container>div:hover {
+    color: grey;
 }
 
 #content {
@@ -60,20 +66,21 @@ body {
 
 #banner {
     height: 50px;
-    display: inline-block;
+    display: block;
     margin: 0 auto;
     float: none;
 }
 
 #title {
-    display: inline-block;
+    display: block;
     margin: 0 auto;
     float: none;
+    border: outset black;
 }
 
 #first-intro {
-    padding-left: 10%;
-    padding-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
     border: 5px double lightskyblue;
 }
 
