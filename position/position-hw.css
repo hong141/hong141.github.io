@@ -58,8 +58,8 @@ body {
     left: 202px;
 }
 
-#banner img {
-    height: 70px;
+#banner {
+    height: 50px;
     display: inline-block;
     margin: 0 auto;
     float: none;
@@ -71,7 +71,7 @@ body {
     float: none;
 }
 
-#text p {
+#first-intro {
     padding-left: 10%;
     padding-right: 10%;
     border: 5px double lightskyblue;
