@@ -27,17 +27,8 @@ body {
     font-family: cursive;
 }
 
-.main-nav>span {
-    vertical-align: middle;
-}
-
 .main-nav:hover {
     color: black;
-}
-
-.icon {
-    height: 53px;
-    display: inline-block;
 }
 
 #container {
@@ -83,7 +74,8 @@ body {
     margin-left: 15%;
     margin-right: 15%;
     border: 5px double #b7dbf1;
-    padding: 10px;
+    padding: 20px;
+    font-family: sans-serif;
 }
 
 .step {
@@ -91,9 +83,10 @@ body {
     margin-right: 5%;
     margin-top: 15px;
     margin-bottom: 15px;
-    border-radius: 40%;
+    border-radius: 30%;
     border: 2px solid #d2f6f2;
     padding: 20px;
+    height: 500px;
 }
 
 .step>div {
