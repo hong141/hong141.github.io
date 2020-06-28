@@ -53,7 +53,6 @@ body {
 
 #content {
     display: inline-block;
-    width: 100%;
     padding-left: 202px;
 }
 
@@ -83,8 +82,6 @@ body {
     margin-right: 5%;
     margin-top: 15px;
     margin-bottom: 15px;
-    border-radius: 30%;
-    border: 2px solid #d2f6f2;
     padding: 20px;
     height: 500px;
 }
@@ -95,6 +92,11 @@ body {
     width: 25%;
     background-color: lightsalmon;
     margin: 10px;
+    padding: 10px;
+}
+
+.block {
+    display: block;
 }
 
 #back-to-top span {
