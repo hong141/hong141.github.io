@@ -3,8 +3,25 @@ body {
 }
 
 #vertical-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
     background-image: url("../position/image/7b3d290fb0cce26152f4de200bfb6d61.jpg");
     background-color: "pink";
     width: 200px;
     height: 100%;
+}
+
+#back-to-top img {
+    width: 40px;
+}
+
+#back-to-top {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: linear-gradient( #f6d2df, #d8b5fe)
 }
