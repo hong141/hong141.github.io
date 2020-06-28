@@ -9,7 +9,7 @@ body {
     width: 200px;
     height: 100%;
     display: inline-block;
-    border-right: 2px dotted darkblue;
+    border-right: 2px dotted lightpink;
 }
 
 #MWlogo {
@@ -18,9 +18,13 @@ body {
 
 .main-nav {
     width: 200px;
-    height: 40px;
+    height: 45px;
     text-align: center;
     line-height: 40px;
+}
+
+.main-nav img {
+    height: 45px;
 }
 
 #container {
@@ -30,7 +34,7 @@ body {
 
 #container>div {
     width: 200px;
-    height: 40px;
+    height: 45px;
     text-align: center;
     line-height: 40px;
 }
@@ -38,10 +42,9 @@ body {
 #content {
     display: inline-block;
     width: 100%;
-    background-color: #edf3f8;
     position: absolute;
     top: 0;
-    left: 200px;
+    left: 202px;
 }
 
 #back-to-top span {
@@ -56,6 +59,8 @@ body {
     height: 50px;
     border-radius: 50%;
     border: 2px solid white;
+    text-align: center;
+    line-height: 50px;
     background-image: linear-gradient( #f6d2df, #d8b5fe)
 }
 
