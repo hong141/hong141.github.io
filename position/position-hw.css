@@ -3,7 +3,7 @@ body {
 }
 
 #vertical-menu {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 200px;
@@ -83,7 +83,6 @@ body {
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 20px;
-    height: 500px;
 }
 
 .step>div {
@@ -93,10 +92,6 @@ body {
     background-color: lightsalmon;
     margin: 10px;
     padding: 10px;
-}
-
-.block {
-    display: block;
 }
 
 #back-to-top span {
