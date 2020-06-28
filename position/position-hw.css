@@ -1,4 +1,6 @@
 #vertical-menu {
     background-image: url("../position/image/7b3d290fb0cce26152f4de200bfb6d61.jpg");
-    background-color: "pink"
+    background-color: "pink";
+    width: 400px;
+    height: auto;
 }
