@@ -82,16 +82,40 @@ body {
     margin-right: 5%;
     margin-top: 15px;
     margin-bottom: 15px;
-    padding: 20px;
+    padding: 40px;
+    display: inline-block;
+    border: 5px dashed #faddc1;
+    border-radius: 20%;
 }
 
 .step>div {
     display: inline-block;
     float: left;
-    width: 25%;
-    background-color: lightsalmon;
+    width: 30%;
+    background-image: linear-gradient( bottom right, #f4d6f0, #f5e3e3);
     margin: 10px;
     padding: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: fantasy;
+    text-decoration: underline;
+    color: #43acf1;
+    margin-block-start: auto;
+    margin-block-end: auto;
+}
+
+h3 {
+    font-size: 17px;
+    font-family: sans-serif;
+    margin-block-start: auto;
+    margin-block-end: auto;
+}
+
+p {
+    font-family: sans-serif;
 }
 
 #back-to-top span {
