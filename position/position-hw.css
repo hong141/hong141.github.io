@@ -88,13 +88,19 @@ body {
     border-radius: 20%;
 }
 
+.step p:first-child {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 .step>div {
     display: inline-block;
     float: left;
-    width: 28%;
+    width: 27%;
     margin: 10px;
-    padding: 10px;
-    background-image: linear-gradient(#b7dbf1, #d2f6f2)
+    padding: 20px;
+    background-image: linear-gradient(#b7dbf1, #d2f6f2);
+    border-radius: 20%;
 }
 
 h2 {
