@@ -96,9 +96,9 @@ body {
 .step>div {
     display: inline-block;
     float: left;
-    width: 27%;
+    width: 25%;
     margin: 10px;
-    padding: 20px;
+    padding: 30px;
     background-image: linear-gradient(#b7dbf1, #d2f6f2);
     border-radius: 20%;
 }
@@ -107,8 +107,7 @@ h2 {
     text-align: center;
     font-size: 30px;
     font-family: fantasy;
-    text-decoration: underline;
-    color: #a1c7f3;
+    color: #43acf1;
     margin-block-start: auto;
     margin-block-end: auto;
 }
