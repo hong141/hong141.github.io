@@ -94,6 +94,7 @@ body {
     width: 28%;
     margin: 10px;
     padding: 10px;
+    background-image: linear-gradient(#b7dbf1, #d2f6f2)
 }
 
 h2 {
@@ -101,9 +102,7 @@ h2 {
     font-size: 30px;
     font-family: fantasy;
     text-decoration: underline;
-    background: -webkit-linear-gradient(#b7dbf1, #d2f6f2, #eac8eb);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #a1c7f3;
     margin-block-start: auto;
     margin-block-end: auto;
 }
