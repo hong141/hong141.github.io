@@ -91,8 +91,7 @@ body {
 .step>div {
     display: inline-block;
     float: left;
-    width: 30%;
-    background-image: linear-gradient( bottom right, #f4d6f0, #f5e3e3);
+    width: 28%;
     margin: 10px;
     padding: 10px;
 }
@@ -102,7 +101,9 @@ h2 {
     font-size: 30px;
     font-family: fantasy;
     text-decoration: underline;
-    color: #43acf1;
+    background: -webkit-linear-gradient(#b7dbf1, #d2f6f2, #eac8eb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin-block-start: auto;
     margin-block-end: auto;
 }
