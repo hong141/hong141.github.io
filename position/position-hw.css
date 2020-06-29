@@ -61,6 +61,7 @@ body {
     display: block;
     margin: 0 auto;
     float: none;
+    margin-top: 10px;
 }
 
 #title {
