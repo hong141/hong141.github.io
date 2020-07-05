@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothes Inspiration</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        header {
+            width: 100%;
+            height: 350px;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+        
+        .circle {
+            background-color: red;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            position: absolute;
+            top: 100px;
+            margin: 0;
+        }
+        
+        #circle1 {
+            left: 15px;
+        }
+        
+        #circle2 {
+            left: 85px;
+        }
+        
+        #square {
+            background-color: red;
+            width: 100px;
+            height: 100px;
+            transform: rotate(45deg);
+            position: absolute;
+            top: 135px;
+            left: 50px;
+        }
+        
+        #heart {
+            width: 200px;
+            position: absolute;
+        }
+        
+        @keyframes heartbeat {
+            0% {
+                transform: scale(1.2);
+            }
+            30% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+        }
+        
+        #heart:hover {
+            animation: heartbeat 1s infinite;
+        }
+        
+        img {
+            display: inline-block;
+            height: 120px;
+            border: 5px solid ghostwhite;
+            box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 grey;
+            margin: 10px;
+            transition: 0.5s;
+        }
+        
+        img:hover {
+            transform: scale(1.7, 1.7);
+        }
+        
+        #container {
+            width: 458px;
+            height: 450px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div id="heart">
+            <div class="circle" id="circle1"></div>
+            <div class="circle" id="circle2"></div>
+            <div id="square"></div>
+        </div>
+    </header>
+
+    <div id="container">
+        <img src="../html5.layout/clothes inspirations/outfit 1.jpeg" />
+        <img src="../html5.layout/clothes inspirations/outfit 2.jpg" />
+        <img src="../html5.layout/clothes inspirations/outfit 3.jpg" />
+        <img src="../html5.layout/clothes inspirations/outfit 4.jpg" />
+        <img src="../html5.layout/clothes inspirations/outfit 5.jpg" />
+        <img src="../html5.layout/clothes inspirations/outfit 6.jpeg" />
+        <img src="../html5.layout/clothes inspirations/outfit 7.jpeg" />
+        <img src="../html5.layout/clothes inspirations/outfit 8.png" />
+        <img src="../html5.layout/clothes inspirations/outfit 9.jpeg" />
+    </div>
+</body>
+
+</html>
