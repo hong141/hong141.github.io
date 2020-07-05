@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <canvas id="canvas"></canvas>
+    <script>
+        var canvas = document.getElementById(#canvas)
+        var
+        var ctx = canvas.getContext('2d')
+
+        class Circle {
+            constructor(dx, dy, radius, startAngle, endAngle, color) {
+                this.dx = dx;
+                this.dy = dy;
+                this.radius = radius;
+                this.startAngle = startAngle;
+                this.endAngle = endAngle;
+                this.color = color;
+            }
+            draw() {
+                ctx.beginPath()
+                ctx.fillStyle = this.color
+                ctx.arc(this.dx, this.dy, this.radius, this.startAngle, this.endAngle, color)
+                ctx.fill()
+                ctx.closePath()
+            }
+        }
+        var ball = new Circle(100 vh / 2, 100 vw / 2, 50, 0, 2 * Math.PI, red)
+        ball.draw()
+    </script>
+</body>
+
+</html>

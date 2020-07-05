@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas</title>
+</head>
+
+<body>
+    <canvas id="canvas" width="800" height="800" style="background-color: #fffcd9;"></canvas>
+    <script>
+        const canvas = document.getElementById("canvas");
+        const ctx = canvas.getContext("2d")
+
+        class Rect {
+            constructor(dx, dy, width, height, color) {
+                this.dx = dx
+                this.dy = dy
+                this.width = width
+                this.height = height
+                this.color = color
+            }
+            draw() {
+                ctx.beginPath()
+                ctx.fillStyle = this.color
+                ctx.rect(this.dx, this.dy, this.width, this.height)
+                ctx.fill()
+            }
+        }
+
+        var bigSquare = new Rect(0, 0, 800, 800, '#f6d2df')
+        bigSquare.draw()
+
+
+        for (i = 0; i < 8; i += 1)
+            if (i % 2) {
+                dx = 100 * i;
+                new Rect(dx, dy, 100, 100, black)
+                Rect.draw()
+            } else {
+                dy = 100 * i;
+                new Rect(dx, dy, 100, 100, black)
+                Rect.draw()
+            }
+        }
+
+        // for (var i = 0; i < arr.length; i++) {
+        //     sum = sum + arr [i]
+        //     console.log("Sum : " + sum)
+        // } 
+        // console.log("Sum : " + sum)
+
+
+
+
+        var sq1 = new Rect(100, 0, 100, 100, '#fbfbfb')
+        sq1.draw()
+
+        var sq2 = new Rect(300, 0, 100, 100, '#fbfbfb')
+        sq2.draw()
+
+        var sq3 = new Rect(500, 0, 100, 100, '#fbfbfb')
+        sq3.draw()
+
+        var sq4 = new Rect(700, 0, 100, 100, '#fbfbfb')
+        sq4.draw()
+    </script>
+</body>
+
+</html>
