@@ -213,7 +213,7 @@ ul.menu-laptop>li>a {
     display: block;
     height: 27px;
     line-height: 27px;
-    padding-left: 8px;
+    padding-left: 7px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -232,7 +232,7 @@ i.fas.fa-chevron-right {
     height: 27px;
     line-height: 27px;
     font-size: 14px;
-    padding-right: 8px;
+    padding-right: 5px;
 }
 
 ul.lzd-main-menu>li:hover>a,
