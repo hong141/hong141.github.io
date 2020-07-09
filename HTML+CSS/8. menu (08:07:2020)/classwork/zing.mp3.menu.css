@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin: 0 !important;
     display: flex;
@@ -179,6 +184,7 @@ ul.lzd-main-menu {
     padding-inline-start: 0;
     width: 200px;
     background-color: white;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, .25);
 }
 
 ul.menu-thiet-bi,
@@ -193,7 +199,7 @@ ul.menu-laptop {
     list-style-type: none;
     padding-inline-start: 0;
     width: 200px;
-    height: 344px;
+    height: 324px;
     background-color: white;
 }
 
@@ -208,13 +214,13 @@ ul.lzd-main-menu>li>a,
 ul.menu-thiet-bi>li>a,
 ul.menu-laptop>li>a {
     text-decoration: none;
-    font-size: 13px;
+    font-size: 12px;
     color: #757575;
     display: block;
     height: 27px;
     line-height: 27px;
-    padding-left: 7px;
-    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 8px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 ul.menu-thiet-bi>li>a>span {
@@ -242,7 +248,7 @@ ul.menu-thiet-bi>li:hover>a {
     height: 27px;
     line-height: 27px;
     padding-left: 8px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #ECEFF1;
 }
 
@@ -265,8 +271,13 @@ ul.menu-laptop>li:hover>a>i {
 
 nav.lzd-main-menu ul.lzd-main-menu li:hover ul.menu-thiet-bi {
     display: block;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, .25);
 }
 
 ul.lzd-main-menu ul.menu-thiet-bi li:hover ul.menu-laptop {
     display: block;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, .25);
+}
+
+
 }
